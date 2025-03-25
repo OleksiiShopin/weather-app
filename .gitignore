@@ -1,0 +1,89 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+server/.env
+client/.env
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Test coverage
+coverage/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Debugging files
+*.swp
+*.swo
+
+# Production builds
+/client/build
+/server/dist
+
+# Cache and metadata
+.cache/
+.next/
+out/
+
+# Dependency directories
+client/node_modules/
+server/node_modules/
+
+# Miscellaneous
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.gz
+
+# Public API keys (sensitive)
+client/.env
+server/.env
+
+# GitHub-specific
+.github/
+
+# MacOS-specific
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+
+# Netlify and Vercel files
+.netlify/
+.vercel/
+
+# Local IDE config files
+.vscode/
+.idea/
+
+# ESLint and Prettier caches
+.eslintcache
+.prettiercache
