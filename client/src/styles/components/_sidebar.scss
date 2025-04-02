@@ -1,0 +1,15 @@
+@use "./modules/variables" as *;
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.sideItems {
+    display: flex;
+    color: $primary-text-color;
+
+    &:hover {
+        color: $secondary-text-color;
+    }
+}
